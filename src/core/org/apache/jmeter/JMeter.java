@@ -350,6 +350,7 @@ public class JMeter implements JMeterPlugin {
         System.out.println("& adapt Java Heap to your test requirements:");//NOSONAR
         System.out.println("   Modify HEAP=\"-Xms512m -Xmx512m\" in the JMeter batch file");//NOSONAR
         System.out.println("================================================================================");//NOSONAR
+        System.out.println("Yyx test here!");
         
         SplashScreen splash = new SplashScreen();
         splash.showScreen();
